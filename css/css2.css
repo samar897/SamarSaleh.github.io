@@ -2,7 +2,7 @@ body{
    background-color:beige;
    }
  .Style1{
-font-size: 50px;
+   font-size: 25px;
 display: flex;
 justify-content: center;
 align-items: center;
