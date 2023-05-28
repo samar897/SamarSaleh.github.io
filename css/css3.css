@@ -1,0 +1,47 @@
+body{
+background-color:beige;
+}
+ .Style1{
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+ .Style2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width:100%;
+    height:auto;
+     }
+
+ nav {
+
+display: flex;
+justify-content:flex-end;
+align-items:end;
+gap: 30px;
+
+ }
+
+ .Footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 25px;
+    
+ }
+ .P{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    gap: 20px;
+    
+ }
+ @media only screen and (max-width: 620px) {
+   /* For mobile phones: */
+   .menu, .main, .right {
+     width: 100%;
+   }
+ }
