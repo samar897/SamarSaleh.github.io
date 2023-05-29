@@ -6,8 +6,14 @@
    
  }
 
+ a{
+   color: black;
+ }
+ 
+
 body{
 background-color:beige;
+color: black;
 }
  .Style1{
 font-size: 25px;
@@ -26,10 +32,13 @@ align-items: center;
 
  nav {
 
+
 display: flex;
 justify-content:flex-end;
 align-items:end;
 gap: 30px;
+background: rgb(255,228,170);
+background: linear-gradient(0deg, rgba(255,228,170,1) 0%, rgba(34,116,195,1) 100%);
 
  }
 
